@@ -7,20 +7,20 @@
   <title>The Last of Us</title>
 </head>
 <body>
-  <header>
-    <img src="images/hbo logo.svg" width="200">
+  <header role="banner">
+    <img src="images/hbo-logo.svg" width="200">
 
-    <nav>
+    <nav id="#nav" role="navigation">
       <ul>
-        <li><a href="#">About the Show</a></li>
-        <li><a href="#">Featured Characters</a></li>
+        <li><a href="#about-the-show">About the Show</a></li>
+        <li><a href="#featured-characters">Featured Characters</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-        <img src="images/the-last-of-us.jpeg" alt="Two main characters of the Last of Us" width="800"/>
+  <main id="#main" role="main">
+    <section id="about-the-show">
+        <img src="images/the-last-of-us.jpeg" alt="Two main characters of the Last of Us. On the left is a young teen with a ponytail, looking towards the camera. On the right, is a middle-aged person with a small beard, looking to the right." width="800"/>
         
         <h1>The Last of Us</h1>
 
@@ -29,42 +29,42 @@
         <p>A series based on the critically acclaimed video game -- and starring Pedro Pascal and Bella Ramsey, among others -- is available now on HBO and HBO Max.</p>
     </section>
 
-    <section>
+    <section id="featured-characters">
 
       <h1>Featured characters</h1>
 
       <article>
-        <h3>Joel</h3>
-        <img src="images/joel-512x512.webp" alt="" />
+        <h2>Joel</h2>
+        <img src="images/joel-512x512.webp" alt="Middle-aged main character with a short beard, looking the the left" />
         <p>A hardened survivor, tormented by past trauma and failure, who must trek across a pandemic-ravaged America, all the while protecting a girl who represents the last hope of humanity.</p>
-        <a href="#">Read more</a>
+        <a href="#" aria-label="Read more about Joel here.">Read more</a>
       </article>
 
       <article>
-        <h4>Ellie</h4>
-        <img src="ellie-512x512.webp" alt="" />
+        <h2>Ellie</h2>
+        <img src="images/ellie-512x512.webp" alt="Young teen main character with ponytail, looking at viewer" />
         <p>A 14-year old orphan who has never known anything but a ravaged planet, struggles to balance her instinct for anger and defiance with her need for connection and belonging… as well as the newfound reality that she may be the key to saving the world.</p>
-        <a href="#">Read more</a>
+        <a href="#" aria-label="Read more about Ellie here.">Read more</a>
       </article>
 
       <article>
-        <h5>Marlene</h5>
-        <img src="images/marlene-512x512.webp" alt="" />
+        <h2>Marlene</h2>
+        <img src="images/marlene-512x512.webp" alt="Leader of the Fireflies group with ponytail, looking towards the right" />
         <p>Leader of the Fireflies, a resistance movement struggling for freedom against an oppressive military regime. (Dandridge voiced the Marlene character in “The Last of Us” and “The Last of Us Part II” video games.)</p>
-        <a href="#">Read more</a>
+        <a href="#" aria-label="Read more about Marlene, here.">Read more</a>
       </article>  
 
       <article>
-          <h6>Tommy</h6>
-          <img src="images/tommy-512x512.webp" alt="" />
+          <h2>Tommy</h2>
+          <img src="images/tommy-512x512.webp" alt="Middle-aged person with a gun, looking slightly to the right, getting ready to aim" />
           <p>Joel’s younger brother, a former soldier who hasn’t lost his sense of idealism and hope for a better world.</p>
-          <a href="#">Read more</a>
+          <a href="#" aria-label="Read more about Tommy here.">Read more</a>
       </article>
 
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <p><small>&copy HBO 2023</small></p>
   </footer>
 </body>
